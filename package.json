@@ -1,6 +1,6 @@
 {
   "name": "@ekarpovs/http-logger",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "A base npm package for use in my Node.js projects.",
   "exports": {
     ".": {
