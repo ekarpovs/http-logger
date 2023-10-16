@@ -26,6 +26,8 @@ jobs:
       - run: npm ci
       # - run: npm run pack:local
       - run: npm unpublish --force
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
