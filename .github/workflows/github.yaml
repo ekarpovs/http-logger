@@ -1,4 +1,4 @@
-name: Publish Package to github
+name: Publish Package to GitHub Package Registry
 on:
   workflow_dispatch:
     branches: [ main ]
